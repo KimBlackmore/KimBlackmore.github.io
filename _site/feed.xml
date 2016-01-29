@@ -6,35 +6,27 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Jan 2016 22:16:50 +1100</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 22:16:50 +1100</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 08:24:21 +1100</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 08:24:21 +1100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Well Hello Nokogiri</title>
+        <description>&lt;p&gt;Well I have discovered Nokogiri, thanks to Skillcush. OMG this is the most amazing thing. The answer to one of my most pressing problems. You see I have been in charge of establishing a course outline database at the &lt;a href=&quot;http://www.anu.edu.au/&quot;&gt;ANU&lt;/a&gt;, called &lt;a href=&quot;https://anu.campusconcourse.com/search?search_performed=1&amp;amp;offset=0&amp;amp;sort_by=title&amp;amp;descend=false&amp;amp;plugin=item_report&amp;amp;report_format=html_tabular&amp;amp;selected_item_class=Syllabus&amp;amp;keyword=&amp;amp;advanced_performed=true&amp;amp;keyword_mode=all&amp;amp;title=&amp;amp;prefix=&amp;amp;number=&amp;amp;campus_id=3&amp;amp;school_id=-1&amp;amp;department_id=12&amp;amp;instructor=&amp;amp;session=&amp;amp;year=&amp;amp;credits=&amp;amp;delivery_method=&amp;amp;registration=_&amp;amp;template=_&amp;amp;timeframe=&amp;amp;audit_status=&quot;&gt;Concourse&lt;/a&gt;, and the most annoying thing is trying to keep it in sync with the universities online handbook, &lt;a href=&quot;http://programsandcourses.anu.edu.au/Search?Source=Catalogue&amp;amp;SearchText=&amp;amp;Search=&amp;amp;FiltersApplied=Courses&amp;amp;Careers%5B0%5D=&amp;amp;Careers%5B1%5D=&amp;amp;Careers%5B2%5D=&amp;amp;Careers%5B3%5D=&amp;amp;FilterByPrograms=false&amp;amp;FilterByCourses=true&amp;amp;FilterByMajors=false&amp;amp;FilterByMinors=false&amp;amp;FilterBySpecialisations=false&amp;amp;DegreeIdentifiers%5B0%5D=&amp;amp;DegreeIdentifiers%5B1%5D=&amp;amp;DegreeIdentifiers%5B2%5D=&amp;amp;Sessions%5B0%5D=&amp;amp;Sessions%5B1%5D=First+Semester&amp;amp;Sessions%5B2%5D=&amp;amp;Sessions%5B3%5D=&amp;amp;Sessions%5B4%5D=&amp;amp;Sessions%5B5%5D=&amp;amp;SelectedYear=2016&amp;amp;AtarMin=70.00&amp;amp;AtarMax=100.00&amp;amp;CollegeName=CAP&quot;&gt;Programs and Courses&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;In particular, the course title, description, requisites, learning outcomes, number of units, and when it is offered need to match. There is no way to generate a report from P&amp;amp;C that can then be uploaded to Concourse. Instead, the administrators update P&amp;amp;C are supposed to email my group to let me know to make corresponding changes, but that is subject to process error. So, 18 months ago Chris who was working in my group and getting bored of manual Concourse updates suggested he write a web-scraper to extract this information from P&amp;amp;C and then it can be uploaded to Concourse automatically using feeds. Sounds like a dream, but Chris left without getting it done :-(. That was sad :-( But I had other assistance and we plugged away with manual updates, spot-checks, and responsive error corrections.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But now I can see that I will be able to create the web-scraper tool using nokogiri. Woo hoo! And just in time too as the group is disbanding and the replacement group will be too small for al this manual updating. If I can create the syncing tool I will talk to ITS about getting “someone” to own it and make sure it keeps running, and then we will have a system that the whole Uni will be able to get on and use. Hooray!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 30 Jan 2016 07:26:58 +1100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/01/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/30/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 30 Jan 2016 20:00:00 +1100</pubDate>
+        <link>http://yourdomain.com/coding/discoveries/2016/01/30/nogogiri-omg.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/coding/discoveries/2016/01/30/nogogiri-omg.html</guid>
         
         
-        <category>jekyll</category>
+        <category>coding</category>
         
-        <category>update</category>
+        <category>discoveries</category>
         
       </item>
     
