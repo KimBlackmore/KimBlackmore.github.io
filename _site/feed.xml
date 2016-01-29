@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Kim Blackmore</title>
+    <description>My github site holds lots of my practice code, but soon it will also hold the code for  my Tech-Life Balance system.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Jan 2016 21:17:26 +1100</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 21:17:26 +1100</lastBuildDate>
+    <pubDate>Fri, 29 Jan 2016 22:16:50 +1100</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2016 22:16:50 +1100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Check out this crazy Jekyll blog!</title>
-        <description>&lt;p&gt;I am have a lot of experience with coding for mathematical simulations, but all this &lt;br /&gt;
-web programming is new to me. Being able to create a blog for my github homepage using this jekyll gem seems amazing. I only started learning ruby 10 days ago and look at me now!&lt;/p&gt;</description>
-        <pubDate>Thu, 29 Dec 2016 00:00:00 +1100</pubDate>
-        <link>http://yourdomain.com/2016/12/29/hello.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/12/29/hello.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -46,6 +35,17 @@ web programming is new to me. Being able to create a blog for my github homepage
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Check out this crazy Jekyll blog!</title>
+        <description>&lt;p&gt;I am have a lot of experience with coding for mathematical simulations, but all this &lt;br /&gt;
+web programming is new to me. Being able to create a blog for my github homepage using this jekyll gem seems amazing. I only started learning ruby 10 days ago and look at me now!&lt;/p&gt;</description>
+        <pubDate>Fri, 29 Jan 2016 00:00:00 +1100</pubDate>
+        <link>http://yourdomain.com/2016/01/29/hello.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/29/hello.html</guid>
+        
         
       </item>
     
