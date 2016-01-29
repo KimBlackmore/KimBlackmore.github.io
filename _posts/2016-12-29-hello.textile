@@ -1,0 +1,7 @@
+---
+layout: post
+title: Check out this crazy Jekyll blog!
+---
+
+I am have a lot of experience with coding for mathematical simulations, but all this 
+web programming is new to me. Being able to create a blog for my github homepage using this jekyll gem seems amazing. I only started learning ruby 10 days ago and look at me now!
